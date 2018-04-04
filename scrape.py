@@ -22,7 +22,7 @@ In order to scrape only one year type same argument for start and end years.
         python scrape.py -s 2016
             (scrapes from 2016 till present)
         python scrape.py -e 1950
-            (scrapes from 1946 till 1950)
+            (scrapes from 1946 till 1950 - inclusive)
         python scrape.py -s 2016 -e 2017
             (scrapes from 2016 till 2017-inclusive)
         python scrape.py -s 2010 -e 2010
