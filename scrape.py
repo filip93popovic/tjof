@@ -16,6 +16,7 @@ articles data in specified age range.
 Script can be invoked with start year and/or end year options.
 If no options are specified script will scrape the whole website.
 In order to scrape only one year type same argument for start and end years.
+
     Examples:
         python scrape.py
             (scrapes whole website)
@@ -28,12 +29,7 @@ In order to scrape only one year type same argument for start and end years.
         python scrape.py -s 2010 -e 2010
             (scrapes only one year)
 
-Additional libraries required:
-    requests
-    bs4
-    pandas
-
-Scraped data is exported as a .csv file.
+Scraped data is exported as a CSV file.
 """
 
 # Loading libraries
