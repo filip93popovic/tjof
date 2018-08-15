@@ -1,4 +1,6 @@
-The project is about web scraping The Journal of Finance articles Data and performing analysis.
+## Web scraping and network analysis of The Journal of Finance articles data
+
+### Important note: Site was redesigned, scraping script is no longer valid.
 
 All code is written in Python 3.
 
@@ -9,3 +11,6 @@ Additional python libraries required:
     requests
     bs4
     pandas
+    numpy
+    networkx
+    nxviz
