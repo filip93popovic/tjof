@@ -12,5 +12,6 @@ Additional python libraries required:
     bs4
     pandas
     numpy
+    matplotlib
     networkx
     nxviz
